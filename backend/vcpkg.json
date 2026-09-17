@@ -1,0 +1,10 @@
+{ 
+    "name":"app-to-down-api",
+    "version-string": "1.0.0",
+    "dependencies": [
+        "crow",
+        "jwt-cpp",
+        "libpq",
+        "libpqxx"
+    ]
+}
