@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+URL: https://www.postgresql.org/
+Version: 18.4
+
+Libs: "-L${libdir}" -lpgtypes -lm
+Requires: libpq
+Cflags: "-I${includedir}"

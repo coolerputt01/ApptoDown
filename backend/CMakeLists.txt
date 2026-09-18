@@ -20,7 +20,7 @@ add_executable(app_to_down_api
 target_link_libraries(app_to_down_api
                 PRIVATE 
                 Crow::Crow
-                pqxx
+                libpqxx::pqxx
     )
 
 target_compile_options(app_to_down_api

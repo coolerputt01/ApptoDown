@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/../include
+libdir=${prefix}/lib
+
+Name: libpq
+Description: PostgreSQL libpq library
+URL: https://www.postgresql.org/
+Version: 18.4
+
+Libs: "-L${libdir}" -lpq -lm -pthread -lpgport -lpgcommon
+Requires: zlib, liblz4, openssl
+Cflags: "-I${includedir}" -DFRONTEND -pthread

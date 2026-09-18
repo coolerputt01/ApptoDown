@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libecpg
+Description: PostgreSQL libecpg library
+URL: https://www.postgresql.org/
+Version: 18.4
+
+Libs: "-L${libdir}" -lecpg -lm -pthread
+Requires: libpgtypes, libpq
+Cflags: "-I${includedir}" -pthread

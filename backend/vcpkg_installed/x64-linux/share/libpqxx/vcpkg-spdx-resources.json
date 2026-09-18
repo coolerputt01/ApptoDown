@@ -1,0 +1,19 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "c4daebcf1b4b882c0b87274548c4081154e909aa379a54269c460ceac6c3000cf68add7ee2da9ff05530e8d8db8b93ca12ea954524467f662ea557ec6612727f"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "git+https://github.com/jtv/libpqxx@8.0.2",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "jtv/libpqxx"
+}
+  ]
+}

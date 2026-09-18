@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpqxx
+Description: C++ client API for the PostgreSQL database management system.
+Version: 8.0.2
+
+Libs: "-L${prefix}/lib" -lpqxx
+Requires: libpq
+Cflags: "-I${prefix}/include"
