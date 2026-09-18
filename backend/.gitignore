@@ -1,3 +1,4 @@
 vcpkg/
 build/
 *.env
+vcpkg_installed/
