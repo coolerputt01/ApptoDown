@@ -5,6 +5,7 @@
         "crow",
         "jwt-cpp",
         "libpq",
+        "libxcrypt",
         "libpqxx"
     ]
 }

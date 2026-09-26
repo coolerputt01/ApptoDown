@@ -1,6 +1,7 @@
 #include <pqxx/pqxx>
 #include <string>
 #include <crow.h>
+#include <bcrypt/bcrypt.h>
 
 class DB {
     private:
@@ -16,4 +17,10 @@ class App {
         void run(){
             app.port(8080).multithreaded().run();
         }
+};
+
+class Settings {
+    public:
+        char salt[BCRYPT_HASHSIZE];
+        char hash[BCRYPT_HASHSIZE];
 };

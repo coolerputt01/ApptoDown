@@ -1,0 +1,2 @@
+docker compose exec -it postgres psql -U admin_user -d apptodowndb
+export PATH="$PATH:/workspaces/ApptoDown/backend/vcpkg"
